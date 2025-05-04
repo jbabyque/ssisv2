@@ -1,0 +1,67 @@
+#titleLabel{
+    font-size: 25px;
+    font-family: "Century Gothic";
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#titleIcon {
+    opacity: 0;
+    
+
+}
+#menu_button{
+    border: none;
+    background-color: #1e1e1e;
+}
+
+#QStackedWidget{
+    background-color: #ffffff;
+}
+QListWidget
+#title_frame{
+    background-color: #1e1e1e;
+}
+#stackedWidget{
+    border-left:none;
+}
+
+#listWidget{
+    font-size: 20px;
+    font-family: "Century Gothic";
+    font-weight: bold;
+}
+
+#listWidget::item,
+#listWidget_iconOnly::item{
+   border:0px;
+   padding: 10px 10px;
+   margin: 2px 0;
+}
+#listWidget::item{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#listWidget_iconOnly::item{
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+#listWidget_iconOnly::item{
+    padding-top: 0px;
+}
+#listWidget::item:hover;
+#listWidget_iconOnly::item:hover{
+    background-color: #f0f0f0;
+}
+#listWidget::item:selected;
+#listWidget_iconOnly::item:selected{
+    background-color: #3f7079;
+}
+#listWidget::icon{
+    width:16px;
+    height:16px;
+}
+#listWidget_iconOnly::icon{
+    width: 30px;
+    height: 30px;
+}
